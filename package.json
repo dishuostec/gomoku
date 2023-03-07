@@ -1,0 +1,10 @@
+{
+	"name": "gomoku",
+	"author": "dishuostec",
+	"private": true,
+	"scripts": {
+		"build": "pnpm --filter @gomoku/* run build",
+		"server": "pnpm --filter @gomoku/server start",
+		"client": "pnpm --filter @gomoku/client serve"
+	}
+}
